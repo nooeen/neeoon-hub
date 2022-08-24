@@ -6,10 +6,16 @@ import '../css/components.css'
 
 function Footer() {
     return (
-        <div className="Footer container">
-            <p>Made with <span class="heart">❤️</span> by <a href={"https://twitter.com/heysagnik"}>Sagnik Sahoo</a></p>
-        </div>
-    )
+      <div className="Footer container">
+        <p>
+          Maintained by{" "}
+          <a href={"https://github.com/nooeen"}>neeoon</a>. 
+          Made with{" "}
+          <span class="heart">❤️</span> by{" "}
+          <a href={"https://twitter.com/heysagnik"}>Sagnik Sahoo</a>
+        </p>
+      </div>
+    );
 }
 
 export default Footer

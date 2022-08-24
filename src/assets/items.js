@@ -1,60 +1,68 @@
-import website from '../assets/website.png'
-import instagram from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.jpg'
-import youtube from '../assets/youtube.jpeg'
-import dribbble from '../assets/dribbble.png'
-import github from '../assets/github.png'
-import telegram from '../assets/telegram.png'
-import twitter from '../assets/twitter.png'
+import neeoon from "../assets/neeoon.png";
+import jellyfin from "../assets/jellyfin.png";
+import sonarr from "../assets/sonarr.png";
+import radarr from "../assets/radarr.png";
+import prowlarr from "../assets/prowlarr.png";
+import bazarr from "../assets/bazarr.png";
+import qbittorrent from "../assets/qbittorrent.png";
+import nextpvr from "../assets/nextpvr.png";
+import npm from "../assets/npm.png";
 
-const items = [{
-    "title": "Website",
-    "subtitle": "Look at my work!",
-    "image": website,
-    "link": "https://sagniksahoo.codes" //your personal website or portfolio  link
-},
-{
-    "title": "GitHub",
-    "subtitle": "@heysagnik | 🏡 to all my open-source projects",
-    "image": github,
-    "link": "https://github.com/heysagnik" //Github Profile link
-},
-{
-    "title": "Instagram",
-    "subtitle": "@heysagnik |  Shots of my life 🙂",
-    "image": instagram,
-    "link": "https://instagram.com/heysagnik" //instagram profile link 
-},
-{
-    "title": "Twitter",
-    "subtitle": "@heysagnik | 😉",
-    "image": twitter,
-    "link": "https://twitter.com/heysagnik"// twitter profile link 
-},
-{
-    "title": "LinkedIn",
-    "subtitle": "Know more about my profession 👨‍💼",
-    "image": linkedin,
-    "link": "https://www.linkedin.com/in/heysagnik/" // linkedin
-},
-{
-    "title": "YouTube",
-    "subtitle": "CODER SAGNIK | Official channel of mine",
-    "image": youtube,
-    "link": "https://www.youtube.com/channel/UCOUa9hvd4sJWQWQRIQctbSg"//youtube channel link 
-},
+const items = [
+  {
+    title: "Jellyfin",
+    subtitle: "Watch movies and tv shows, free of charge!",
+    image: jellyfin,
+    link: "https://jellyfin.neeoon.net", //Github Profile link
+  },
+  {
+    title: "Sonarr",
+    subtitle: "Manage shows library",
+    image: sonarr,
+    link: "https://sonarr.neeoon.net", //instagram profile link
+  },
+  {
+    title: "Radarr",
+    subtitle: "Manage films library",
+    image: radarr,
+    link: "https://radarr.neeoon.net", // twitter profile link
+  },
+  {
+    title: "Prowlarr",
+    subtitle: "Manage torrent trackers",
+    image: prowlarr,
+    link: "https://prowlarr.neeoon.net", // linkedin
+  },
+  {
+    title: "Bazarr",
+    subtitle: "Manage & download subtitles automatically",
+    image: bazarr,
+    link: "https://bazarr.neeoon.net", //youtube channel link
+  },
+  {
+    title: "qBittorrent",
+    subtitle: "Web UI for qBittorrent, a torrent downloader",
+    image: qbittorrent,
+    link: "https://qbittorrent.neeoon.net", // Dribbble profile link
+  },
+  {
+    title: "NextPVR",
+    subtitle: "Watch tv channels for free!",
+    image: nextpvr,
+    link: "https://nextpvr.neeoon.net", //Telegram Pofile
+  },
+  {
+    title: "Nginx Proxy Manager",
+    subtitle: "neeoon.net's Proxy manager",
+    image: npm,
+    link: "https://proxy.neeoon.net", //Telegram Pofile
+  },
+  {
+    title: "neeoon.net",
+    subtitle: "Have a look at my works!",
+    image: neeoon,
+    link: "https://neeoon.net",
+  },
+];
 
-{
-    "title": "Dribbble",
-    "subtitle": "@virtuonic | shots of dezigns ",
-    "image": dribbble,
-    "link": "https://dribbble.com/virtuonic" // Dribbble profile link 
-},
-{
-    "title": "Telegram",
-    "subtitle": "@heysagnik | Chat with me instantly ",
-    "image": telegram,
-    "link": "https://telegram.me/heysagnik" //Telegram Pofile 
-}]
-
-export default items
+export default items;

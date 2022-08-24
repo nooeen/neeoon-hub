@@ -1,7 +1,6 @@
 import React from 'react'
 import SunIcon from './Icons/SunIcon'
 import MoonIcon from './Icons/MoonIcon'
-import avatar from '../assets/avatar.jpeg'
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
@@ -18,13 +17,13 @@ function Header() {
   return (
     <div className="Header container">
       <div className="ten columns Header__inner">
-        <img src={avatar} alt="avatar" />
-        &nbsp;&nbsp;&nbsp;
+        {/* <img src={avatar} alt="avatar" /> */}
+        {/* &nbsp;&nbsp;&nbsp; */}
         <h2>
-          <b>Sagnik. </b>
+          <b className="Header__title">neeoon</b>
         </h2>
       </div>
-      <button className="switch-theme-button" onClick={handleSwitchTheme}>
+      <button className="Header__switch switch-theme-button" onClick={handleSwitchTheme}>
         {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
       </button>
     </div>
