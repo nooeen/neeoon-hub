@@ -5,7 +5,7 @@ import radarr from "../assets/radarr.png";
 import prowlarr from "../assets/prowlarr.png";
 import bazarr from "../assets/bazarr.png";
 import qbittorrent from "../assets/qbittorrent.png";
-import nextpvr from "../assets/nextpvr.png";
+import portainer from "../assets/portainer.png";
 import npm from "../assets/npm.png";
 
 const items = [
@@ -13,49 +13,49 @@ const items = [
     title: "Jellyfin",
     subtitle: "Watch movies and tv shows, free of charge!",
     image: jellyfin,
-    link: "https://jellyfin.neeoon.net", //Github Profile link
+    link: "https://jellyfin.neeoon.net", 
   },
   {
     title: "Sonarr",
     subtitle: "Manage shows library",
     image: sonarr,
-    link: "https://sonarr.neeoon.net", //instagram profile link
+    link: "https://sonarr.neeoon.net", 
   },
   {
     title: "Radarr",
     subtitle: "Manage films library",
     image: radarr,
-    link: "https://radarr.neeoon.net", // twitter profile link
+    link: "https://radarr.neeoon.net", 
   },
   {
     title: "Prowlarr",
     subtitle: "Manage torrent trackers",
     image: prowlarr,
-    link: "https://prowlarr.neeoon.net", // linkedin
+    link: "https://prowlarr.neeoon.net", 
   },
   {
     title: "Bazarr",
     subtitle: "Manage & download subtitles automatically",
     image: bazarr,
-    link: "https://bazarr.neeoon.net", //youtube channel link
+    link: "https://bazarr.neeoon.net", 
   },
   {
     title: "qBittorrent",
     subtitle: "Web UI for qBittorrent, a torrent downloader",
     image: qbittorrent,
-    link: "https://qbittorrent.neeoon.net", // Dribbble profile link
+    link: "https://qbittorrent.neeoon.net", 
   },
   {
-    title: "NextPVR",
-    subtitle: "Watch tv channels for free!",
-    image: nextpvr,
-    link: "https://nextpvr.neeoon.net", //Telegram Pofile
+    title: "Portainer",
+    subtitle: "Manage Docker containers",
+    image: portainer,
+    link: "https://portainer.neeoon.net", 
   },
   {
     title: "Nginx Proxy Manager",
     subtitle: "neeoon.net's Proxy manager",
     image: npm,
-    link: "https://proxy.neeoon.net", //Telegram Pofile
+    link: "https://proxy.neeoon.net", 
   },
   {
     title: "neeoon.net",
